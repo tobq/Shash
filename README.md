@@ -58,6 +58,7 @@ var width = 1000,
     shash = new Shash(width, height, onNeighbour);
 new rectangle(0, 0);
 new rectangle(5, 0);
+new rectangle(100, 50);
 shash.check();
 ```
 > **onNeighbour:** *NEIGHBOURS: rectangle {coords: {…}, width: 10, height: 10} rectangle {coords: {…}, width: 10, height: 10}*

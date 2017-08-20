@@ -31,7 +31,7 @@ This will check through the grid, and call the "onNeighbour" callback for each p
 
 ```javascript
 function onNeighbour(object1, object2){
-    // Do work with neighters, such as check collision.
+    // Do work with neighbours, such as collision checking.
 }
 ```
 -----

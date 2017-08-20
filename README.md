@@ -1,0 +1,2 @@
+# Shash
+Spacial hashing API

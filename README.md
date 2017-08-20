@@ -61,5 +61,5 @@ new rectangle(0, 0, 10, 10);
 new rectangle(5, 0, 10, 10);
 shash.check();
 ```
-
-# LOG: onNeighbour >>  NEIGHBOURS: rectangle {coords: {…}, width: 10, height: 10} rectangle {coords: {…}, width: 10, height: 10}
+------
+**LOG: onNeighbour >** *NEIGHBOURS: rectangle {coords: {…}, width: 10, height: 10} rectangle {coords: {…}, width: 10, height: 10}*

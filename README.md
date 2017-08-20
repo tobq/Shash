@@ -4,15 +4,25 @@ Simple, and fast, spacial hashing API
 The shash class has only 2 members.
 
 Setup
-
 ```javascript
 var width = 1000,
     height = 500,
     shash = new Shash(width, height, onNeighbour);
-    
-shash.add({coords: {x:0, y:0}}, width, height)
 ```
-An object with a "coords" property should be passed (x-y properties), along with a width and height.
+"gridItem" complient objects are added to the grid.
+
+```javascript
+shash.add(gridItem, width, height);
+
+interface gridItem {
+    coOrdinates coords;
+}
+interface coOrdinates {
+    int x;
+    int y;
+}
+```
+"gridItem" complient objects are added to the grid.
 
 ```javascript
 shash.check()
@@ -31,10 +41,12 @@ Using grid objects
 ```javascript
 // constructor
 function rectangle(x, y, width, height){
-    this.coords = new vec2(x || 0, y || 0);
+    this.coords = {
+        x: x || 0,
+        y: y || 0
+    };
     this.width = width || 10;
     this.height = height || 10
     shash.add(this, this.width, this.height);
 }
 ```
-

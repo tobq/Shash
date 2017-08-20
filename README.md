@@ -31,10 +31,10 @@ This will check through the grid, and call the "onNeighbour" callback for each p
 
 ```javascript
 function onNeighbour(object1, object2){
-    console.log(object1, object2);
     // Do work with neighters, such as check collision.
 }
 ```
+-----
 
 Usage
 
@@ -51,7 +51,6 @@ function rectangle(x, y, width, height){
 }
 function onNeighbour(object1, object2){
     console.log("NEIGHBOURS:", object1, object2);
-    // Do work with neighters, such as check collision.
 }
 
 var width = 1000,

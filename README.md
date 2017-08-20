@@ -1,5 +1,5 @@
 # Shash
-Simple, and fast, spacial hashing API
+Simple, and fast, spacial hashing library
 
 The shash class has only 2 members.
 

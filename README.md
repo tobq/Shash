@@ -3,7 +3,7 @@ Simple, and fast, spacial hashing API
 
 The shash class has only 2 members.
 
-Setup
+### Setup
 ```javascript
 var width = 1000,
     height = 500,
@@ -22,7 +22,7 @@ interface coOrdinates {
     int y;
 }
 ```
-"gridItem" complient objects are added to the grid.
+### Running check
 
 ```javascript
 shash.check()

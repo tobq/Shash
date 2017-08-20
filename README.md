@@ -49,4 +49,17 @@ function rectangle(x, y, width, height){
     this.height = height || 10
     shash.add(this, this.width, this.height);
 }
+function onNeighbour(object1, object2){
+    console.log("NEIGHBOURS:", object1, object2);
+    // Do work with neighters, such as check collision.
+}
+
+var width = 1000,
+    height = 500,
+    shash = new Shash(width, height, onNeighbour);
+new rectangle(0, 0, 10, 10);
+new rectangle(5, 0, 10, 10);
+shash.check();
+
+LOG: onNeighbour >>  NEIGHBOURS: rectangle {coords: {…}, width: 10, height: 10} rectangle {coords: {…}, width: 10, height: 10}
 ```

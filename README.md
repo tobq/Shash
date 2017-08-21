@@ -58,6 +58,7 @@ function onNeighbour(object1, object2){
 var width = 1000,
     height = 500,
     shash = new Shash(width, height, onNeighbour);
+    
 new rectangle(0, 0);
 new rectangle(5, 0);
 new rectangle(100, 50);

@@ -68,3 +68,4 @@ Shash.prototype.check = function () {
 		}
 	}
 }
+

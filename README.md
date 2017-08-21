@@ -38,6 +38,8 @@ function onNeighbour(object1, object2){
 
 Usage
 
+You can include `https://raw.githubusercontent.com/tobq/Shash/master/Shash.js` in a HTML file.
+
 ```javascript
 // constructor
 function rectangle(x, y, width, height){

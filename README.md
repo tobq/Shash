@@ -38,7 +38,7 @@ function onNeighbour(object1, object2){
 
 Usage
 
-You can include `https://raw.githubusercontent.com/tobq/Shash/master/Shash.js` in a HTML file.
+You can include `<script src="https://raw.githubusercontent.com/tobq/Shash/master/Shash.js" async>` in a HTML file.
 
 ```javascript
 // constructor

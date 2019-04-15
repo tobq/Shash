@@ -15,11 +15,11 @@ var width = 1000,
 shash.add(gridItem, width, height);
 
 interface gridItem {
-    coOrdinates coords;
+    coords : coord;
 }
-interface coOrdinates {
-    int x;
-    int y;
+interface coords {
+    x : number;
+    y : number;
 }
 ```
 ### Running check

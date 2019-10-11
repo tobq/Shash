@@ -14,10 +14,10 @@ var width = 1000,
 ```javascript
 shash.add(gridItem, width, height);
 
-interface gridItem {
-    coords : coord;
+interface GridItem {
+    coords : Coords;
 }
-interface coords {
+interface Coords {
     x : number;
     y : number;
 }
